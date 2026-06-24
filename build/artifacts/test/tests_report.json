@@ -1,0 +1,35 @@
+{
+  "FailedTests": [
+    {
+      "file": "test/test_calculator.c",
+      "test": "test_add",
+      "line": 14,
+      "message": "Expected 6 Was 5"
+    }
+  ],
+  "PassedTests": [
+    {
+      "file": "test/test_calculator.c",
+      "test": "test_sub"
+    },
+    {
+      "file": "test/test_calculator.c",
+      "test": "test_mul"
+    },
+    {
+      "file": "test/test_calculator.c",
+      "test": "test_div"
+    },
+    {
+      "file": "test/test_integration.c",
+      "test": "test_add_results"
+    }
+  ],
+  "IgnoredTests": [],
+  "Summary": {
+    "total_tests": 5,
+    "passed": 4,
+    "ignored": 0,
+    "failures": 1
+  }
+}
